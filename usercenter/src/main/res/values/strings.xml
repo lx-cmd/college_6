@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="user_hint_username">please input username</string>
+    <string name="user_hint_password">please input password</string>
+    <string name="user_hint_password_again">please input password again</string>
+
+    <string name="user_login_success">Success!</string>
+    <string name="user_login_failed">Failes!</string>
+    <string name="user_login">LOGIN</string>
+
+    <string name="user_reg">REGISTER</string>
+    <string name="change_pwd">Change Pwd</string>
+    <string name="get_yzm">get Yzm</string>
+
+
+</resources>

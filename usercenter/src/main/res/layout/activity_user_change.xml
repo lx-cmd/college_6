@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="vm"
+            type="com.example.usercenter.viewmodel.UserViewModel" />
+
+        <variable
+            name="change"
+            type="com.example.usercenter.view.act.UserChangeActivity" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:onClick="change">
+
+        <com.example.weight.TitleBar
+            android:id="@+id/tb_bar"
+            app:left_txt=""
+            app:left_icon="@drawable/fanhui"
+            app:left_iocn_visible="true"
+            app:title_txt="修改密码"
+            app:right_txt="保存"
+            app:right_icon_visible="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.example.weight.TitleBar>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:hint="@string/user_hint_username"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/get_yzm"
+                android:onClick="getYzm"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:hint="@string/get_yzm"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:hint="@string/user_hint_password"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:hint="@string/user_hint_password_again"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</layout>
