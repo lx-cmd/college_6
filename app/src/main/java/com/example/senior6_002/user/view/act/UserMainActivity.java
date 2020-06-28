@@ -17,6 +17,6 @@ public class UserMainActivity extends AppCompatActivity {
 
         StatusBarUtil.setTranslucent(UserMainActivity.this,0);
 
-        //StatusBarUtil.setTranslucent( UserMainActivity.this , 127 ) ;
+        StatusBarUtil.setTranslucent( UserMainActivity.this , 127 ) ;
     }
 }
